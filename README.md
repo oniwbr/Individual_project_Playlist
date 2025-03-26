@@ -22,4 +22,4 @@
 4. Все данные будут храниться в csv-формате и подтягиваться при очередном запуске приложения.
 
 ![Схема классов](source/Diagrama_of_class.jpg)
-[How work Vector] (/source/How_work_Vector.pdf)
+[How_work_Vector](/source/How_work_Vector.pdf)
