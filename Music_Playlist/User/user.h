@@ -1,7 +1,7 @@
 // Copy right 2025 Margarita Kanukova 
 
-#ifndef USER_USER_H
-#define USER_USER_H
+#ifndef USER_H
+#define USER_H
 
 class User {
 	char* _email;
@@ -12,4 +12,4 @@ class User {
 	/*Playlist** _created;*/
 };
 
-#endif // !USER_USER_H
+#endif // !USER_H

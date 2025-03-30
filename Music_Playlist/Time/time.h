@@ -1,7 +1,7 @@
 // Copy right 2025 Margarita Kanukova
 
-#ifndef TIME_PLAYLIST_H
-#define TIME_PLAYLIST_H
+#ifndef TIME_H
+#define TIME_H
 
 class Time {
 	int _hours;
@@ -9,5 +9,4 @@ class Time {
 	int _seconds;
 };
 
-#endif // !TIME_PLAYLIST_H
-
+#endif // !TIME_H

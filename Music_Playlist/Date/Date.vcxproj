@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dfe32717-0b46-4e9d-b4f0-adc83ef14f0f}</ProjectGuid>
-    <RootNamespace>Platforms</RootNamespace>
+    <ProjectGuid>{8bf720d5-0a0e-4039-a128-b825195f8ca4}</ProjectGuid>
+    <RootNamespace>Date</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -40,7 +40,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -104,12 +104,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Github\Individual_project_Playlist\Time;C:\Github\Individual_project_Playlist\User;C:\Github\Individual_project_Playlist\Song;C:\Github\Individual_project_Playlist\Playlist;C:\Github\Individual_project_Playlist\Date;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Github\Individual_project_Playlist\User;C:\Github\Individual_project_Playlist\Time;C:\Github\Individual_project_Playlist\Song;C:\Github\Individual_project_Playlist\Playlist;C:\Github\Individual_project_Playlist\Date;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -129,24 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="date.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Date\Date.vcxproj">
-      <Project>{c0c11c74-9b5b-4079-85bc-67472a296f1d}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Playlist\Playlist.vcxproj">
-      <Project>{c7827b30-8e95-4697-a8fb-cde6562b4a55}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Song\Song.vcxproj">
-      <Project>{d14ac13a-b76f-4a44-98dc-cc409fc2fab5}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Time\Time.vcxproj">
-      <Project>{bf253dc9-9f70-426a-af9c-20a586ca92bb}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\User\User.vcxproj">
-      <Project>{fd78d273-ed3a-43a1-9bfa-a63beff42944}</Project>
-    </ProjectReference>
+    <ClInclude Include="date.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

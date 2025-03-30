@@ -1,9 +1,9 @@
 // Copy right 2025 Margarita Kanukova
 
-#ifndef PLAYLIST_PLAYLIST_H
-#define PLAYLIST_PLAYLIST_H
+#ifndef PLAYLIST_H
+#define PLAYLIST_H
 
-enum State {Private, Public};
+enum State { Private, Public };
 class PLaylist {
 	int _id;
 	char* _name;
@@ -15,4 +15,4 @@ class PLaylist {
 	/*Song** _songs;*/
 };
 
-#endif // PLAYLIST_PLAYLIST_H
+#endif // !PLAYLIST_H

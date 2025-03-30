@@ -1,7 +1,7 @@
 // Copy roght 2025 Margarita Kanukova
 
-#ifndef DATE_PLAYLIST_H
-#define DATE_PLAYLIST_H
+#ifndef DATE_H
+#define DATE_H
 
 class Date {
 	int _year;
@@ -9,4 +9,4 @@ class Date {
 	int _day;
 };
 
-#endif // DATE_PLAYLIST_H
+#endif // !DATE_H

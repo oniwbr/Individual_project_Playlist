@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bf253dc9-9f70-426a-af9c-20a586ca92bb}</ProjectGuid>
-    <RootNamespace>Time</RootNamespace>
+    <ProjectGuid>{873abb14-4625-4f22-b9bb-0e0e9c1ffa8d}</ProjectGuid>
+    <RootNamespace>playlist</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Playlist</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,10 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="time.cpp" />
+    <ClCompile Include="playlist.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="time.h" />
+    <ClInclude Include="playlist.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
