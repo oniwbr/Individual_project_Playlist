@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Application\Application.vcxproj", "{41876307-8073-405E-98FD-BDCF2A341F7F}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Song", "Song\Song.vcxproj", "{0D9A427F-E78A-4D30-AAB5-D88944412CEE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Playlist", "Playlist\Playlist.vcxproj", "{6AAC4C36-3068-41B7-8078-48F8259156EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TVector", "TVector\TVector.vcxproj", "{404F9250-070C-4FB8-A45A-7C470CB8432A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{6AAC4C36-3068-41B7-8078-48F8259156EA}.Release|x64.Build.0 = Release|x64
 		{6AAC4C36-3068-41B7-8078-48F8259156EA}.Release|x86.ActiveCfg = Release|Win32
 		{6AAC4C36-3068-41B7-8078-48F8259156EA}.Release|x86.Build.0 = Release|Win32
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Debug|x64.ActiveCfg = Debug|x64
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Debug|x64.Build.0 = Debug|x64
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Debug|x86.ActiveCfg = Debug|Win32
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Debug|x86.Build.0 = Debug|Win32
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Release|x64.ActiveCfg = Release|x64
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Release|x64.Build.0 = Release|x64
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Release|x86.ActiveCfg = Release|Win32
+		{404F9250-070C-4FB8-A45A-7C470CB8432A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

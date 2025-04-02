@@ -1,12 +1,13 @@
-// Copy right 2025 Margarita Kanukova
+// Copyright 2025 Margarita Kanukova
 
-#ifndef TIME_H
-#define TIME_H
+#ifndef PLATFORM_TIME_TIME_H_
+#define PLATFORM_TIME_TIME_H_
 
 class Time {
-	int _hours;
-	int _minutes;
-	int _seconds;
+    int _hours;
+    int _minutes;
+    int _seconds;
+
 };
 
-#endif // !TIME_H
+#endif  // PLATFORM_TIME_TIME_H_

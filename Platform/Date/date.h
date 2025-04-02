@@ -1,12 +1,13 @@
-// Copy roght 2025 Margarita Kanukova
+// Copyright 2025 Kanukova Margarita
 
-#ifndef DATE_H
-#define DATE_H
+#ifndef PLATFORM_DATE_DATE_H_ 
+#define PLATFORM_DATE_DATE_H_ 
 
 class Date {
-	int _year;
-	int _month;
-	int _day;
+    int _year;
+    int _month;
+    int _day;
+    
 };
 
-#endif // !DATE_H
+#endif  // PLATFORM_DATE_DATE_H_ 

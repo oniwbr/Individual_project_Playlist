@@ -1,1 +1,3 @@
-#include "playlist.h"
+// Copyright 2025 Kanukova Margarita
+
+#include "../Playlist/playlist.h"
