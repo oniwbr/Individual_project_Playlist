@@ -1,6 +1,6 @@
 // Copyright 2025 Margarita Kanukova
 
-#include "../Time/time.h"
+#include "/Github/Individual_project_Playlist/Platform/Time/time.h"
 
 #ifndef PLATFORM_SONG_SONG_H_
 #define PLATFORM_SONG_SONG_H_
@@ -10,7 +10,6 @@ class Song {
     char* _name;
     Time _druation_of_song;
     char* _album;
-    
 };
 
-#endif  // PLATFORM_SONG_SONG_H_  
+#endif  // PLATFORM_SONG_SONG_H_

@@ -1,12 +1,11 @@
-//Copyright 2025 Kanukova Margarita
+// Copyright 2025 Kanukova Margarita
 
-#include "../Date/date.h"
-#include "../Playlist/playlist.h"
-#include "../Song/song.h"
-#include "../Time/time.h"
-#include "../User/user.h"
+#include "/Github/Individual_project_Playlist/Platform/Date/date.h"
+#include "/Github/Individual_project_Playlist/Platform/Playlist/playlist.h"
+#include "/Github/Individual_project_Playlist/Platform/Song/song.h"
+#include "/Github/Individual_project_Playlist/Platform/Time/time.h"
+#include "/Github/Individual_project_Playlist/Platform/User/user.h"
 
 int main() {
     return 0;
-
 }
