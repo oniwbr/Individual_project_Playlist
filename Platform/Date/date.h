@@ -1,7 +1,7 @@
 // Copyright 2025 Kanukova Margarita
 
 #ifndef PLATFORM_DATE_DATE_H_
-#define PLATFORM_DATE_DATE_H_ 
+#define PLATFORM_DATE_DATE_H_
 
 class Date {
     int _year;

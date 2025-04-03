@@ -3,7 +3,7 @@
 #include "/Github/Individual_project_Playlist/Platform/Time/time.h"
 
 #ifndef PLATFORM_SONG_SONG_H_
-#define PLATFORM_SONG_SONG_H_  
+#define PLATFORM_SONG_SONG_H_
 
 class Song {
     int _id;

@@ -1,4 +1,4 @@
-// Copyright 2025 Margarita Kanukova 
+// Copyright 2025 Margarita Kanukova
 
 #include "/Github/Individual_project_Playlist/Platform/Playlist/playlist.h"
 
