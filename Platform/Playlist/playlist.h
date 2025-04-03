@@ -1,9 +1,9 @@
 // Copyright 2025 Margarita Kanukova
 
-#include "/Github/Individual_project_Playlist/Platform/User/user.h"
-#include "/Github/Individual_project_Playlist/Platform/Date/date.h"
-#include "/Github/Individual_project_Playlist/Platform/Time/time.h"
-#include "/Github/Individual_project_Playlist/Platform/Song/song.h"
+#include "../Date/date.h"
+#include "../User/user.h"
+#include "../Time/time.h"
+#include "../Song/song.h"
 
 #ifndef PLATFORM_PLAYLIST_PLAYLIST_H_
 #define PLATFORM_PLAYLIST_PLAYLIST_H_
@@ -18,6 +18,7 @@ class PLaylist {
     Time _druation_of_songs;
     State _state;
     Song** _songs;
+    
 };
 
 #endif  // PLATFORM_PLAYLIST_PLAYLIST_H_

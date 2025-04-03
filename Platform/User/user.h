@@ -1,6 +1,6 @@
 // Copyright 2025 Margarita Kanukova
 
-#include "/Github/Individual_project_Playlist/Platform/Playlist/playlist.h"
+#include "../Playlist/playlist.h"
 
 #ifndef PLATFORM_USER_USER_H_
 #define PLATFORM_USER_USER_H_
@@ -12,6 +12,7 @@ class User {
     char* _password;
     Playlist** _favorite;
     Playlist** _created;
+
 };
 
 #endif  // PLATFORM_USER_USER_H_
