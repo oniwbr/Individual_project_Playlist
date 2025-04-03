@@ -1,4 +1,4 @@
-//Copyright 2025 Kanukova Margarita
+// Copyright 2025 Kanukova Margarita
 
 #include "../Date/date.h"
 #include "../Playlist/playlist.h"
@@ -8,5 +8,4 @@
 
 int main() {
     return 0;
-
 }
