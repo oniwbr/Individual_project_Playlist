@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "date.h"
 
 Date::Date(int d, int m, int y) {
@@ -67,3 +68,8 @@ int Date::day_in_month(int m, int y) {
 		throw std::invalid_argument("Incorrect number of month!\n");
 	}
 }
+=======
+// Copyright 2025 Kanukova Margarita
+
+#include "/Github/Individual_project_Playlist/Platform/Date/date.h"
+>>>>>>> 5b0996b27230fded92803b14194277f607c7b82e

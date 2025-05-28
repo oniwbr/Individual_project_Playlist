@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "../User/user.h"
 #include <string>
 
@@ -65,3 +66,8 @@ bool User::check_correct_password(const std::string& password) {
 	}
 	return true;
 }
+=======
+// Copyright 2025 Kanukova Margarita
+
+#include "/Github/Individual_project_Playlist/Platform/User/user.h"
+>>>>>>> 5b0996b27230fded92803b14194277f607c7b82e
