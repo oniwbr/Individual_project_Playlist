@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{839b1b69-b0d8-45cd-b783-e3a577365fc1}</ProjectGuid>
-    <RootNamespace>Date</RootNamespace>
+    <ProjectGuid>{a0a2a84b-91a8-412f-95e5-73e06ae367ca}</ProjectGuid>
+    <RootNamespace>Tvector</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,10 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="date.cpp" />
+    <ClCompile Include="tvector.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="date.h" />
+    <ClInclude Include="tvector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

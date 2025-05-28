@@ -1,15 +1,15 @@
-// Copyright 2025 Margarita Kanukova
-
-#include "/Github/Individual_project_Playlist/Platform/Time/time.h"
+//Copy right 2025 Margarita Kanukova
 
 #ifndef PLATFORM_SONG_SONG_H_
 #define PLATFORM_SONG_SONG_H_
+#include <iostream>
+#include "\Github\Individual_project_Playlist\Platform\Time\ctime.h"
 
 class Song {
-    int _id;
-    char* _name;
-    Time _druation_of_song;
-    char* _album;
+	std::string _name;
+	std::string _author;
+	CTime _duration_of_song;
+	std::string _album;
 };
 
 #endif  // PLATFORM_SONG_SONG_H_
