@@ -2,17 +2,23 @@
 
 #ifndef PLAYLIST_H
 #define PLAYLIST_H
+#include <iostream>
+#include "/Github/Individual_project_Playlist/Platform/Date/date.h"
+#include "/Github/Individual_project_Playlist/Platform/User/user.h"
+#include "/Github/Individual_project_Playlist/Platform/Time/ctime.h"
+#include "/Github/Individual_project_Playlist/Platform/Song/song.h"
 
-enum State { Private, Public };
-class PLaylist {
-	int _id;
-	char* _name;
-	/*Date _date_of_creation;*/
-	/*User* _author;*/
+class User;
+
+enum States { Private, Public };
+class Playlist {
+	std::string _name;
+	Date _date_of_creation;
+	User* _username;
 	int _number_of_songs;
-	/*Time _druation_of_songs;*/
-	State _state;
-	/*Song** _songs;*/
+	CTime _druation_of_songs;
+	States _state;
+	Song** _songs;
 };
 
 #endif // !PLAYLIST_H

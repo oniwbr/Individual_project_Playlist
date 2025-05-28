@@ -3,7 +3,7 @@
 #ifndef TIME_H
 #define TIME_H
 
-class Time {
+class CTime {
 	int _hours;
 	int _minutes;
 	int _seconds;
